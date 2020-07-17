@@ -1,0 +1,43 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+h2.mainHeading {
+    text-align: center;
+    color: #B8B1FF;
+    font-size: 16px;
+    font-weight: 450;
+    font-family: Montserrat;
+    position: relative;
+    text-transform: uppercase;
+}
+
+h2.mainHeading::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background: #F39314;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 276%;
+}
+
+h3.mainSubHeading {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    color: #fff;
+    font-size: 26px;
+    font-family: Montserrat;
+    font-weight: 550;
+}
+span.ng-star-inserted {
+    color: yellow;
+    padding-right: 2%;
+}
+span.sr-only.ng-star-inserted {
+    display: none;
+}

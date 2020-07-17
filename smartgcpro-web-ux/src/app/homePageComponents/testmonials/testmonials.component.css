@@ -1,0 +1,63 @@
+
+
+  ::ng-deep .owl-theme .owl-nav {
+    margin-top: 10px;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    display: none;
+  }
+ 
+.imageCarousel {
+  width: 90%;
+  background: #4C4B56;
+  min-height: 180px;
+}
+
+  .testmonials {
+    background-color: #42414D;
+    padding-top: 1%;
+    padding-bottom: 4%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+.testmonialImage{
+  width: 52px !important;
+  border-radius: 55%;
+  height: 52px;
+}
+h3.testmonialContent {
+  color: #FFFFFF99;
+  font-size: 13px;
+  font-weight: 200;
+  font-family: Montserrat;
+  opacity: 1;
+}
+ul {
+  list-style: none;
+  display: flex;
+  padding: 0px;
+}
+h4.testmonialstudentName {
+  padding: 0px;
+  margin: 0px;
+  padding-left: 5%;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 200;
+  font-family: Montserrat;
+  margin-top: 2%;
+}
+h5.testmonialstudentLocation {
+  padding: 0px;
+  margin: 0px;
+  padding-left: 5%;
+  color: #FFFFFF99;
+  font-size: 11px;
+  font-weight: 200;
+  font-family: Montserrat;
+  margin-top: 3%;
+}
+.testmonialSection {
+  width: 84%;
+  margin-left: 8%;
+}

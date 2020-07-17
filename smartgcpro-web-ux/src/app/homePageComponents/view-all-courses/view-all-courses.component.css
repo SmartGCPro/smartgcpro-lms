@@ -1,0 +1,117 @@
+.viewAllCourses {
+    background-color: #313045;
+    padding-top: 1%;
+    padding-bottom: 4%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+
+.courseCard{
+    width: 24%;
+    padding: 0px;
+    margin-right: 1%;
+    display: inline-block;
+    margin-bottom: 3%;
+    background: #4C4B56;
+}
+img.courseImage {
+    width: 100%;
+    min-height: 170px;
+}
+.coursesSection {
+    width: 84.5%;
+    margin-left: 8%;
+}
+.sectionContentBox {
+    padding-left: 4%;
+    padding-right: 1%;
+    min-height: 120px;
+    padding-top: 2%;
+}
+h3.coursePackageName {
+    padding: 0px;
+    margin: 0px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 200;
+    font-family: Montserrat;
+    opacity: 1;
+    min-height: 25px;
+    line-height: 20px;
+}
+
+h4.courseAuthorName {
+    margin: 0px;
+    color: #FFFFFF99;
+    font-size: 12px;
+    font-weight: 200;
+    font-family: Montserrat;
+    opacity: 1;
+    min-height: 25px;
+    line-height: 20px;
+}
+span.rating {
+    color: #FFFFFF99;
+    font-size: 12px;
+    font-weight: 200;
+    font-family: Montserrat;
+    opacity: 1;
+    margin-left: 2%;
+}
+span.totalReviews {
+    color: #FFFFFF99;
+    font-size: 12px;
+    font-weight: 200;
+    font-family: Montserrat;
+    opacity: 1;
+    margin-left: 2%;
+}
+h3.price {
+    margin: 0px;
+    margin-top: 4%;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Montserrat;
+}
+span.strikeOffPrice {
+    color: #FFFFFF99;
+    font-size: 10px;
+    margin-left: 4%;
+    text-decoration: line-through;
+}
+
+i.fa.fa-angle-right.circle {
+    float: right;
+}
+i.fa.fa-angle-left.circle {
+    float: right;
+}
+.circle{
+    color: #fff;
+    font-size: 26px;
+    margin-right: 0.5%;
+    font-weight: 300;
+    background: #313045;
+    width: 43px;
+    height: 35px;
+    text-align: center;
+    padding-top: 0.6%;
+    border-radius: 32px;
+    border: 0.4px solid #fff;
+    cursor: pointer;
+}
+.boxButton {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #fff;
+    max-width: 16%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    float: unset;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}

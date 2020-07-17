@@ -1,0 +1,23 @@
+
+<section class="viewAllCourses">
+
+        <h2 class="mainHeading">POPULAR COURSES</h2>
+        <h3 class="mainSubHeading">UPGRADE YOUR SKILLS</h3>
+        <div class="coursesSection" >
+                <mat-card class="courseCard" *ngFor="let coursesObj of coursesList">
+                    <img src="../../../assets/courseImage.png" class="courseImage" />
+                    <div class="sectionContentBox">
+                        <h3 class="coursePackageName">Human Funds</h3>
+                        <h4 class="courseAuthorName">Saketh Reddy</h4>
+                        <ngb-rating rate="4"
+                        [readonly]="true" [max]="maxStars"></ngb-rating> <span class="rating">4.9</span> <span class="totalReviews">(12000)</span>
+                        <h3 class="price">$ 250000 <span class="strikeOffPrice">$ 1200</span></h3>
+                    </div>
+                    </mat-card>
+                    
+                    <i class="fa fa-angle-right circle" ></i>
+                    <i class="fa fa-angle-left circle" ></i>
+
+                    <div class="boxButton">view All Courses</div>
+        </div>
+      </section>

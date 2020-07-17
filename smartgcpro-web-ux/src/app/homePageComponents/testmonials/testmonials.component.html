@@ -1,0 +1,31 @@
+
+<section class="testmonials">
+
+  <h2 class="mainHeading">Testmonials</h2>
+  <h3 class="mainSubHeading">WHAT OUR COMMUNITY HAS <br /> TO SAY</h3>
+  <div class="testmonialSection">  <owl-carousel-o [options]="carouselOptions" (translated)="getPassedData($event)">
+
+    <ng-container *ngFor="let slide of slidesStore">
+      <ng-template carouselSlide [id]="slide.id">
+        <div class="row">
+          <div class="col-item">
+            <mat-card class="imageCarousel">
+              <ul>
+                <li><img [src]="slide.imageUrl" class="testmonialImage"></li>
+                <li style="width: 60%;"><h4  class="testmonialstudentName">Sundar Pichai</h4>
+               <h5 class="testmonialstudentLocation">Student, Chennai</h5></li>
+            </ul>
+              <h3 class="testmonialContent">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam.
+              </h3>
+              <ngb-rating rate="4"
+                                      [readonly]="true" [max]="maxStars"></ngb-rating>
+            </mat-card>
+          </div>
+        </div>
+      </ng-template>
+    </ng-container>
+
+  </owl-carousel-o>
+</div>
+</section>
